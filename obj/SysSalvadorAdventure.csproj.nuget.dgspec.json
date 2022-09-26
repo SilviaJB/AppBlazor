@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\Proyectoesfe(oficial)\\SysSalvadorAdventure\\SysSalvadorAdventure.csproj": {}
+    "C:\\Proyectos\\CPROYECTS\\C6Proyects\\AppBlazor\\SysSalvadorAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\Proyectoesfe(oficial)\\SysSalvadorAdventure\\SysSalvadorAdventure.csproj": {
+    "C:\\Proyectos\\CPROYECTS\\C6Proyects\\AppBlazor\\SysSalvadorAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\Proyectoesfe(oficial)\\SysSalvadorAdventure\\SysSalvadorAdventure.csproj",
+        "projectUniqueName": "C:\\Proyectos\\CPROYECTS\\C6Proyects\\AppBlazor\\SysSalvadorAdventure.csproj",
         "projectName": "SysSalvadorAdventure",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Proyectoesfe(oficial)\\SysSalvadorAdventure\\SysSalvadorAdventure.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\Proyectoesfe(oficial)\\SysSalvadorAdventure\\obj\\",
+        "projectPath": "C:\\Proyectos\\CPROYECTS\\C6Proyects\\AppBlazor\\SysSalvadorAdventure.csproj",
+        "packagesPath": "C:\\Users\\ronal\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\CPROYECTS\\C6Proyects\\AppBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ronal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -63,7 +67,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.1, 6.0.1]"
+              "version": "[6.0.7, 6.0.7]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
