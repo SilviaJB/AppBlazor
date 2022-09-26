@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -61,7 +61,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-QNKx7Svym9Cs\/OQqIIq7PZ9qnY1WfgjGZTF\/HRD5Pok=",
+      "hash": "sha256-PksNKUCm1MZKnvLPY+x172Ahew\/undyVeNplFFQBMIg=",
       "url": "index.html"
     },
     {
@@ -833,7 +833,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-awQsJ\/WxYhouHPuE+i3eJqjA4XClQlr2rD6nKvW80ww=",
+      "hash": "sha256-BZrWm7vUIfCJHf4Y0NJcrjaBGoOkqbQf2rkoy8qY\/6o=",
       "url": "_framework\/dotnet.6.0.1.8dugmzvosf.js"
     },
     {
@@ -875,7 +875,35 @@
     {
       "hash": "sha256-ZM26lkyRfz7joYS\/OBt82ohXMTTdf\/Yvcc5++kgfQ3g=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-0BwmLyXvILN8o\/KysufU+npGx9H+xsAtyPNt0Fstb4I=",
+      "url": "_framework\/Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "hash": "sha256-Ozge5odZR9sF2vFtgkU5phkJ\/It65q68sAH4pcCk8to=",
+      "url": "_framework\/Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "hash": "sha256-WLcZIKlgct2nj4hpaBvZXfHorQG9DH9B\/FZ2IKePG2I=",
+      "url": "_framework\/Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "hash": "sha256-aOJetx2rPupAGsXg2NCRL5p+\/xdzMyUSbmn24txWfQw=",
+      "url": "_framework\/Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
+      "hash": "sha256-dtFJs1kTbcOInH4xowdaLNBIyCCFP5v6vGeAyEUOmI8=",
+      "url": "_framework\/MudBlazor.dll"
+    },
+    {
+      "hash": "sha256-JQWD4dNaRBtboiA0uapoe1EhAIKbg+JN2RB9\/nVapSI=",
+      "url": "_content\/MudBlazor\/MudBlazor.min.css"
+    },
+    {
+      "hash": "sha256-3AKmpdrQq6Zd3gaLwhiWFwow+p\/5IhuJQRFgNX7jwHs=",
+      "url": "_content\/MudBlazor\/MudBlazor.min.js"
     }
   ],
-  "version": "LnO5c8UR"
+  "version": "6U91Ykaf"
 };
