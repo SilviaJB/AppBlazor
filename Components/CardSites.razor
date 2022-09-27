@@ -1,0 +1,40 @@
+@page "/Card"
+
+<MudCard Class="rounded-xl">
+    <MudCardHeader  Style="@($"background:{Colors.BlueGrey.Darken2};")">
+        <CardHeaderAvatar>
+            <MudAvatar Style="@($"color:{Colors.Grey.Lighten5}; background:{Colors.Grey.Darken2}")">@idsite</MudAvatar>
+        </CardHeaderAvatar>
+        <CardHeaderContent>
+            <MudText Style="@($"color:{Colors.Grey.Lighten5};")"  Typo="Typo.body1">@TitleSite</MudText>
+            <MudText Style="@($"color:{Colors.Grey.Lighten1};")" Typo="Typo.body2">@UbicationSite</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudIconButton Icon="@Icons.Material.Filled.Settings" Style="@($"color:{Colors.Grey.Lighten3};")" />
+        </CardHeaderActions>
+    </MudCardHeader>
+    <MudCardMedia Class="pa-4 rounded-lg" Image="@imageSite" Height="200" />
+    <MudCardContent Style="@($"background:{Colors.BlueGrey.Darken2}")">
+        <MudText  Style="@($"color:{Colors.Grey.Lighten3}")" Typo="Typo.body2">@DescriptionSite</MudText>
+        <MudRating ReadOnly="true" SelectedValue="@qualification"/>
+    </MudCardContent>
+    <MudCardActions class="rounded-b-xl border-t-4 border-solid border-cyan" Style="@($"background:{Colors.BlueGrey.Darken2}")">
+        <MudIconButton Style="@($"color:{Colors.Grey.Lighten1}")" Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+        <MudIconButton Style="@($"color:{Colors.Grey.Lighten1};")" Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+    </MudCardActions>
+</MudCard>
+
+@code {
+    [Parameter]
+    public int idsite{get;set;} = 0;
+    [Parameter]
+    public string TitleSite{get;set;}="Title is not found";
+    [Parameter]
+    public string UbicationSite{get;set;}="Country is not found";
+    [Parameter]
+    public string DescriptionSite {get; set;} ="Description Lorem input";
+    [Parameter]
+    public string imageSite {get;set;}="";
+    [Parameter]
+    public int qualification{get;set;}= 4;
+}

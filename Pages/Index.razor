@@ -2,8 +2,24 @@
 
 <PageTitle>Index</PageTitle>
 
-<h1>Hello, world!</h1>
+<WelcomeCard/>
+
+<CarruselSites/>
 
 Welcome to your new app.
-
+   
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+<MudGrid @bind-Value="spacing">
+        @foreach(var num in IdSites){
+            <MudItem xs="12" sm="6" md="4">
+                <CardSites idsite=@num  TitleSite="Agape" UbicationSite="Sonsonate" DescriptionSite="Agua, Cangrejos, Calor y mas"></CardSites>
+            </MudItem>
+        }
+</MudGrid>
+
+@code{  
+    public string Salvadorian{get;set;}="Defaut Salvadorian";
+    List<int> IdSites = new List<int>{1,2,3,4,5};
+    public int spacing{get;set;}=4;
+}
